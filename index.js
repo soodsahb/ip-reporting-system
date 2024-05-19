@@ -26,7 +26,7 @@ app1.use((req, res, next) => {
   }
 });
 
-// Define your routes for Server 1 here
+
 app1.get('/', (req, res) => {
   res.send('Welcome to Server 1');
 });
